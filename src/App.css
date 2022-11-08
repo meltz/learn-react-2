@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.container {
+.balance {
   display: flex;
   text-align: center;
 }
@@ -34,4 +34,14 @@
 
 .btn:hover {
   opacity: 0.8;
+}
+
+.notification-section {
+  display: flex;
+  text-align: center;
+}
+
+.notification {
+  background-color: pink;
+  color: black;
 }
