@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.balance {
+  display: flex;
+  text-align: center;
+}
+
+.col {
+  flex-direction: column;
+  width: 200px;
+  padding: 20px;
+}
+
+.balance-section {
+  background-color: bisque;
+}
+
+.saving-balance-section {
+  background-color: aliceblue;
+}
+
+.btn {
+  margin-top: 10px;
+  background-color: white;
+  text-align: center;
+  border: 0;
+  padding: 5px 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.notification-section {
+  display: flex;
+  text-align: center;
+}
+
+.notification {
+  background-color: pink;
+  color: black;
+}
